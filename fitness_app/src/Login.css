@@ -1,0 +1,49 @@
+.container {
+  /*background-color: rgb(8, 8, 8);*/
+  color: rgb(255, 255, 255);
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header {
+  color: #13c8f5;
+}
+
+#b1 {
+  
+  background-color:#13c8f5;
+    color: #FFFFFF;
+    font-size: 15px;
+    border: 2px solid;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.RightDiv {
+  flex: 1;
+  text-align: center;
+  padding: 50px;
+  
+}
+
+.LeftDiv {
+  flex: 1;
+  text-align: center;
+ 
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .LeftDiv {
+    margin: 0;
+  }
+
+  .RightDiv {
+    margin: 0;
+    padding: 20px;
+  }
+}

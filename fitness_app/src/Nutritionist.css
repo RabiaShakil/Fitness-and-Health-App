@@ -1,0 +1,123 @@
+/* Set font-family and font-size for all elements */
+body, .nutritionist-list, .ant-list-item-meta-title, .ant-list-item-meta-description {
+  font-family: "Arial", sans-serif;
+  font-size: 16px;
+  color: black;
+}
+
+/* Set the text color to white for title and description */
+.nutritionist-list__title, .ant-list-item-meta-title a, .ant-list-item-meta-description {
+  color: #fff;
+
+}
+
+/* Set the background color to black for the body */
+body {
+  background-color: #000;
+}
+
+/* Set the background color to dark gray and text color to white for the nutritionist list */
+.nutritionist-list {
+  background-color: #000;
+  color: #fff;
+}
+
+/* Set the padding and background color for the nutritionist list header */
+.nutritionist-list__header {
+  padding: 20px;
+  background-color: black;
+}
+
+/* Set the text color to white for the nutritionist list title */
+.nutritionist-list__title {
+  color: #fff;
+  background-color: #1e90ff;
+  text-align: center;
+  height: 45px;
+  padding-top: 5px;
+}
+
+.nut{
+  margin-left: 10px;
+}
+
+/* Style the sort button with a light gray background, black text, and a border */
+.nutritionist-list__sort {
+  margin-left: 20px;
+  background-color: #000;
+  color: #222;
+  border: 1px solid #222;
+  border-radius: 4px;
+  width: 150px;
+  margin-right: 50px;
+  margin-left: 10px;
+}
+
+/* Add a top margin to the filter section */
+.nutritionist-list__filter {
+  margin-top: 20px;
+  background-color: #000;
+  margin-left: 10px;
+}
+
+.nutritionist-list__search {
+  margin-top: 20px;
+  margin-right: 50px;
+  margin-left: 10px;
+  color:black;
+}
+
+/* Style the select input and arrow with a white background, black text, and a border */
+.ant-select {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  color: black;
+}
+
+.ant-select-arrow {
+  color: white;
+}
+
+/* Style the input field with a white background, black text, and a border */
+.ant-input {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  color: white;
+}
+
+/* Style the input addon with a white background, black text, and a border */
+.ant-input-group-addon {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  color: black;
+}
+
+/* Style the addon button with a black background, white text, and a border */
+.ant-input-group-addon button {
+  background-color: #222;
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+/* Style the list item with a black background, white text, and a blue border */
+.ant-list-item {
+  color: #fff;
+  margin-bottom: 30px;
+  width: 950px;
+  margin-left: 150px;
+  border: 3px solid #1e90ff;
+  border-radius: 8px;
+}
+
+/* Set the text color to white for the list item title and description */
+.ant-list-item-meta-title, .ant-list-item-meta-description {
+  color: #fff;
+  width: 700px;
+  margin-right: 200px;
+}
+
+
+.ant-input-search {
+  color: black;
+  background-color: #1e90ff;
+}

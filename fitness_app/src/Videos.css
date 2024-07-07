@@ -1,0 +1,246 @@
+.Videos {
+  text-align: center;
+  background-color: black;
+  font-family: sans-serif;
+  }
+  
+  .Videos-logo {
+  height: 40vmin;
+  pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+  .Videos-logo {
+  animation: Videos-logo-spin infinite 20s linear;
+  }
+  }
+  
+  .Videos-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  }
+  
+  .Videos-link {
+  color: rgb(63, 154, 196);
+  }
+  
+  @media only screen and (max-width: 600px) {
+  h1 {
+  margin: 10px;
+  height: 40px;
+  margin-top: 10px;
+  font-size: 1.5rem;
+  }
+  
+  .yoga iframe,
+  .cardio iframe,
+  .exercise iframe,
+  .abs iframe,
+  .facial iframe {
+  margin-left: 0;
+  width: 100%;
+  height: 100%;
+  }
+  
+  .yoga,
+  .cardio,
+  .exercise,
+  .abs,
+  .facial {
+  margin-top: 20px;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+  overflow: hidden;
+  }
+  
+  .container {
+  display: flex;
+  flex-direction: column;
+  }
+  
+  .img-container {
+  order: -1;
+  }
+  }
+  
+  @media only screen and (min-width: 601px) {
+  h1 {
+  margin: 30px;
+  height: 60px;
+  margin-top: 20px;
+  font-size: 2rem;
+  }
+  
+  .yoga {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+  overflow: hidden;
+  margin-top: 40px;
+  }
+  
+  .yoga iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80%;
+  height: 80%;
+  margin-left: 150px;
+  }
+  
+  .cardio {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+  margin-top: 40px;
+  }
+  
+  .cardio iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80%;
+  height: 80%;
+  margin-left: 150px;
+  }
+  
+  .exercise {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+  overflow: hidden;
+  margin-top: 40px;
+  }
+  
+  .exercise iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80%;
+  height: 80%;
+  margin-left: 150px;
+  }
+  
+  .abs {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+  margin-top: 40px;
+  }
+  
+  .abs iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80%;
+  height: 80%;
+  margin-left: 150px;
+  }
+  
+  .facial {
+      position: relative;
+      padding-bottom: 56.25%; /* 16:9 */
+      height: 0;
+      margin-top: 40px;
+      overflow: hidden;
+    }
+
+    .facial iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 80%;
+      height: 80%;
+      margin-left: 150px;
+    }
+  
+  .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  }
+  
+  .img-container {
+  order: 1;
+  flex-basis: 50%;
+  padding: 10px;
+  height: 600px;
+  }
+  
+  .img-container img {
+  width: 500px;
+  height: 400px;
+  margin-top: 70px;
+  margin-left: 200px;
+  }
+  
+  .video-container {
+  order: 2;
+  flex-basis: 50%;
+  }
+  
+  .video-container iframe {
+  width: 100%;
+  height: 100%;
+  }
+  }
+
+h1{
+  background-color: rgb(63, 154, 196);
+  color: white;
+  text-align: center;
+  margin: 30px;
+  height: 55px;
+  margin-top: 20px;
+  font-family: sans-serif;
+
+}
+
+  .vid_btn{
+    height: 57px;
+    width: 370px;
+    margin-bottom: 40px;
+    margin-left: 25px;
+    border-radius: 4px;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+    font-family: sans-serif;
+    transition: all 0.3s ease-in-out;
+    border: 1px solid rgb(63, 154, 196);
+    font-family: sans-serif;
+    background-color: rgb(63, 154, 196);
+  }
+
+.Videos h1 {
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-top: 5px; 
+  font-family: sans-serif;
+}
+
+.vid_btn{
+  height: 57px;
+  width: 370px;
+  margin-bottom: 40px;
+  margin-left: 25px;
+  border-radius: 4px;
+  color: white;
+  font-size: 25px;
+  cursor: pointer;
+  font-family: sans-serif;
+  transition: all 0.3s ease-in-out;
+  border: 1px solid rgb(63, 154, 196);
+  font-family: sans-serif;
+  background-color: rgb(63, 154, 196);
+
+}

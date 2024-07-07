@@ -1,0 +1,108 @@
+/* Set the font family and size for the entire table */
+.ant-table {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+/* Set the background color and text color for the header row */
+.ant-table-thead > tr > th {
+  background-color: #001529; 
+  color: #fff;
+}
+
+/* Set the background color for the data rows */
+.ant-table-tbody > tr:nth-child(even) {
+  background-color: #f2f2f2; 
+}
+
+/* Set the background color and text color for the selected data row */
+.ant-table-tbody > tr.ant-table-row-selected:not(.ant-table-row-disabled) {
+  background-color: #e6f7ff; 
+  color: #001529; 
+}
+
+/* Set the background color and text color for the hover state of the data rows */
+.ant-table-tbody > tr:hover:not(.ant-table-expanded-row):not(.ant-table-row-selected) {
+  background-color: #e6f7ff; 
+  color: #001529; 
+}
+
+/* Set the background color and text color for the cell that contains the meal plan */
+.ant-table-cell-mealPlan {
+  background-color: #fff; 
+  color: #001529; 
+  font-weight: bold;
+  padding: 8px 16px;
+}
+
+/* Set the background color and text color for the cell that contains the time slot */
+.ant-table-cell-timeSlot {
+  background-color: #001529; 
+  color: #fff; 
+  font-weight: bold;
+  padding: 8px 16px;
+}
+
+/* Set the background color and text color for the buttons */
+.ant-btn {
+  background-color: #06427e;
+  color: #fff; 
+  border: none;
+  border-radius: 7px;
+  margin-right: 8px;
+  margin-left: 12px;
+  margin-bottom: 8px;
+  font-weight: bold;
+  text-transform: uppercase;
+  width: 245px;
+  height: 37px;
+}
+
+/* Set the hover state for the buttons */
+.ant-btn:hover {
+  background-color: #fff; 
+  color: #001529; 
+  border: 1px solid #001529; 
+}
+
+/* Decrease the height and width of the table and center align it */
+.ant-table-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.ant-table-wrapper > .ant-table {
+  width: 70%;
+}
+
+.ant-table-wrapper > .ant-table:last-child {
+  width: 28%;
+}
+
+/* Set the height and width of the buttons */
+.ant-table-wrapper > .ant-btn {
+  width: 100%;
+  height: auto;
+  margin-right: 0;
+  margin-left: 0;
+  margin-bottom: 8px;
+}
+
+/* Align all buttons on the left side */
+.ant-table-wrapper > .ant-btn:first-child {
+  margin-left: 12px;
+}
+
+/* Set the height and width of the logo */
+.logo {
+  height: 50px;
+  background-color: #06427e;
+  margin: 16px 24px 16px 0;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  margin-bottom: 15px;
+  letter-spacing: 2px;
+  margin-top: 5px;
+}

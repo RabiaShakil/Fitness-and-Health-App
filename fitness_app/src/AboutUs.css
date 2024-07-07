@@ -1,0 +1,64 @@
+/* AboutUs.css */
+
+.container {
+  min-width: 93vw;
+  min-height: 100vh;
+  max-height: fit-content;
+  margin: 0 auto;
+  padding: 24px;
+  text-align: center;
+}
+
+.title {
+  font-size: 24px;
+  color: #1890ff;
+  margin-bottom: 16px;
+}
+
+.paragraph {
+  margin-bottom: 16px;
+}
+
+.contact-section {
+  margin-top: 24px;
+}
+
+.contact-title {
+  font-size: 20px;
+  color: #1890ff;
+  margin-bottom: 16px;
+}
+
+.contact-paragraph {
+  margin-bottom: 16px;
+}
+
+.contact-buttons {
+  margin-top: 8px;
+}
+
+.contact-button {
+  margin-right: 8px;
+}
+
+.email-button {
+  background-color: #1890ff;
+  border-color: #1890ff;
+}
+
+.email-button:hover,
+.email-button:focus {
+  background-color: #40a9ff;
+  border-color: #40a9ff;
+}
+
+.phone-button {
+  background-color: #52c41a;
+  border-color: #52c41a;
+}
+
+.phone-button:hover,
+.phone-button:focus {
+  background-color: #73d13d;
+  border-color: #73d13d;
+}
